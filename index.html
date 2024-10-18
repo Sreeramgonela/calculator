@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+
+
+        
+       
+    
+</head>
+<body>
+
+    <div class="calculator">
+      <h1>MINI CALCULATOR</h1>
+        <div class="display"><input type="text" readonly /></div>
+        <div class="buttons">
+            <button class="clear" onclick="clr()">clear</button>
+            <button class="clear" onclick="backspace()">C</button>
+            <button onclick="fun(this)">.</button>
+            <button class="operator" onclick="fun(this)">/</button>
+            <button onclick="fun(this)">7</button>
+            <button onclick="fun(this)">8</button>
+            <button onclick="fun(this)">9</button>
+            <button class="operator" onclick="fun(this)">*</button>
+            <button onclick="fun(this)">4</button>
+            <button onclick="fun(this)">5</button>
+            <button onclick="fun(this)">6</button>
+            <button class="operator" onclick="fun(this)">-</button>
+            <button onclick="fun(this)">1</button>
+            <button onclick="fun(this)">2</button>
+            <button onclick="fun(this)">3</button>
+            <button class="operator" onclick="fun(this)">+</button>
+            <button onclick="fun(this)">0</button>
+            <button class="equals" onclick="res()">=</button>
+        </div>
+    </div>
+
+    <script src="./calc.js">
+        
+    </script>
+</body>
+</html>
